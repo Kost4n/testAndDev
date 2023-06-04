@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center_horizontal">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registration_label"
+            android:textSize="25sp"
+            android:layout_margin="30dp"/>
+    <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_number_label"
+            android:layout_margin="30dp"/>
+    <EditText
+            android:id="@+id/input_name"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:hint="@string/registration_name"/>
+    <EditText
+            android:id="@+id/input_username"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:hint="@string/registration_username"/>
+    <Button
+            android:id="@+id/confirm_button_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="@string/registration_button"/>
+</LinearLayout>

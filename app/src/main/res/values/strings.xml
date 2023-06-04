@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">testAndDev</string>
+    <string name="login_label">Авторизация</string>
+    <string name="login_number">Введите номер телефона</string>
+    <string name="login_code">Введите код</string>
+    <string name="login_button_number_text">Отправить код</string>
+    <string name="login_button_code_text">Проверить код</string>
+    <string name="registration_label">Регистрация</string>
+    <string name="registration_name">Введите имя</string>
+    <string name="registration_username">Введите никнейм</string>
+    <string name="registration_button">Зарегистрироваться</string>
+    <string name="profile_label">Профиль</string>
+    <string name="profile_number_label">Номер телефона:</string>
+    <string name="profile_username_label">Никнейм:</string>
+    <string name="profile_city_label">Город проживания:</string>
+    <string name="profile_date_label">Дата рождения:</string>
+    <string name="profile_zodiac_label">Знак зодиака:</string>
+    <string name="profile_about_label">О пользователе:</string>
+    <string name="profile_button">Редактировать профиль</string>
+    <string name="edit_profile_label">Редактирование</string>
+    <string name="edit_profile_avatar_button">Изменить аватар</string>
+    <string name="edit_profile_button">Закончить</string>
+</resources>
